@@ -356,6 +356,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/vendor/lib/libmmcamera_isp_sce40.so:system/vendor/lib/libmmcamera_isp_sce40.so \
     vendor/nubia/nx531j/proprietary/vendor/lib/libmmcamera_isp_snr47.so:system/vendor/lib/libmmcamera_isp_snr47.so \
     vendor/nubia/nx531j/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
+    vendor/nubia/nx531j/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/nubia/nx531j/proprietary/bin/cnd:system/bin/cnd \
     vendor/nubia/nx531j/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/nubia/nx531j/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
