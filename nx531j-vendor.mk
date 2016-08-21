@@ -29,6 +29,20 @@ PRODUCT_PACKAGES += \
     TimeService
 
 PRODUCT_PACKAGES += \
+    com.qti.dpmframework \
+    dpmapi \
+    tcmclient \
+    com.qti.location.sdk \
+    qcrilhook
+
+PRODUCT_BOOT_JARS += \
+    com.qti.dpmframework \
+    dpmapi \
+    tcmclient \
+    com.qti.location.sdk \
+    qcrilhook
+
+PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libtime_genoff
 
