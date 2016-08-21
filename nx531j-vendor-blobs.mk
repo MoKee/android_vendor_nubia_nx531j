@@ -578,6 +578,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/nubia/nx531j/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/nubia/nx531j/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/nubia/nx531j/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/nubia/nx531j/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/nubia/nx531j/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/nubia/nx531j/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -595,8 +596,10 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/nubia/nx531j/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/nubia/nx531j/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/nubia/nx531j/proprietary/vendor/lib/libqti-wl.so:system/vendor/lib/libqti-wl.so \
     vendor/nubia/nx531j/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/nubia/nx531j/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/nubia/nx531j/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
     vendor/nubia/nx531j/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/nubia/nx531j/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/nubia/nx531j/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
@@ -613,6 +616,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
     vendor/nubia/nx531j/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/nubia/nx531j/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
+    vendor/nubia/nx531j/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
     vendor/nubia/nx531j/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/nubia/nx531j/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/nubia/nx531j/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
@@ -625,9 +629,11 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/etc/modem_ota/CT/mcfg_sw.mbn:system/etc/modem_ota/CT/mcfg_sw.mbn \
     vendor/nubia/nx531j/proprietary/etc/modem_ota/CU/mcfg_sw.mbn:system/etc/modem_ota/CU/mcfg_sw.mbn \
     vendor/nubia/nx531j/proprietary/etc/modem_ota/ROW/mcfg_sw.mbn:system/etc/modem_ota/ROW/mcfg_sw.mbn \
+    vendor/nubia/nx531j/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/nubia/nx531j/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/nubia/nx531j/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/nubia/nx531j/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
+    vendor/nubia/nx531j/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/nubia/nx531j/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/nubia/nx531j/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/nubia/nx531j/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \

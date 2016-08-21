@@ -18,6 +18,8 @@ PRODUCT_PACKAGES += \
     CNEService \
     com.qualcomm.location \
     QtiTetherService \
+    datastatusnotification \
+    embms \
     fastdormancy \
     QtiTelephonyService \
     shutdownlistener \
