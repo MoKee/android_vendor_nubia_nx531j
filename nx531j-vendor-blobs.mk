@@ -95,8 +95,25 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/lib/libnubia_effect.so:system/lib/libnubia_effect.so \
     vendor/nubia/nx531j/proprietary/lib/libnubiajpeg.so:system/lib/libnubiajpeg.so \
     vendor/nubia/nx531j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/nubia/nx531j/proprietary/lib64/libAlgorithm.so:system/lib64/libAlgorithm.so \
+    vendor/nubia/nx531j/proprietary/lib64/libBuffer.so:system/lib64/libBuffer.so \
+    vendor/nubia/nx531j/proprietary/lib64/libBurstProcessJni.so:system/lib64/libBurstProcessJni.so \
+    vendor/nubia/nx531j/proprietary/lib64/libFNVfbEngineLib.so:system/lib64/libFNVfbEngineLib.so \
     vendor/nubia/nx531j/proprietary/lib64/libImageAlogrithm.so:system/lib64/libImageAlogrithm.so \
+    vendor/nubia/nx531j/proprietary/lib64/libIndependenceUtil.so:system/lib64/libIndependenceUtil.so \
+    vendor/nubia/nx531j/proprietary/lib64/libavcodec.so:system/lib64/libavcodec.so \
+    vendor/nubia/nx531j/proprietary/lib64/libavfilter.so:system/lib64/libavfilter.so \
+    vendor/nubia/nx531j/proprietary/lib64/libavformat.so:system/lib64/libavformat.so \
+    vendor/nubia/nx531j/proprietary/lib64/libavutil.so:system/lib64/libavutil.so \
+    vendor/nubia/nx531j/proprietary/lib64/libbuffer_manager.so:system/lib64/libbuffer_manager.so \
+    vendor/nubia/nx531j/proprietary/lib64/libmorpho_panorama_gp.so:system/lib64/libmorpho_panorama_gp.so \
+    vendor/nubia/nx531j/proprietary/lib64/libmulti_exposure.so:system/lib64/libmulti_exposure.so \
+    vendor/nubia/nx531j/proprietary/lib64/libnubia_delay_recorder.so:system/lib64/libnubia_delay_recorder.so \
     vendor/nubia/nx531j/proprietary/lib64/libnubiajpeg.so:system/lib64/libnubiajpeg.so \
+    vendor/nubia/nx531j/proprietary/lib64/libpanoramahelper.so:system/lib64/libpanoramahelper.so \
+    vendor/nubia/nx531j/proprietary/lib64/libproductinfo.so:system/lib64/libproductinfo.so \
+    vendor/nubia/nx531j/proprietary/lib64/libswresample.so:system/lib64/libswresample.so \
+    vendor/nubia/nx531j/proprietary/lib64/libswscale.so:system/lib64/libswscale.so \
     vendor/nubia/nx531j/proprietary/vendor/lib/libSonyIMX298PdafLibrary.so:system/vendor/lib/libSonyIMX298PdafLibrary.so \
     vendor/nubia/nx531j/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/nubia/nx531j/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
