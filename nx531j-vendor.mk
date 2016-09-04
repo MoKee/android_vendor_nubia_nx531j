@@ -139,28 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/nubia/nx531j/proprietary/lib/libsdmcore.so:system/lib/libsdmcore.so \
     vendor/nubia/nx531j/proprietary/lib/libsdmutils.so:system/lib/libsdmutils.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_aacdec.so:system/lib/libstagefright_soft_aacdec.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_aacenc.so:system/lib/libstagefright_soft_aacenc.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_amrdec.so:system/lib/libstagefright_soft_amrdec.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_amrnbenc.so:system/lib/libstagefright_soft_amrnbenc.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_amrwbenc.so:system/lib/libstagefright_soft_amrwbenc.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_avcdec.so:system/lib/libstagefright_soft_avcdec.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_avcenc.so:system/lib/libstagefright_soft_avcenc.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_dtsdec.so:system/lib/libstagefright_soft_dtsdec.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_flacenc.so:system/lib/libstagefright_soft_flacenc.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_g711dec.so:system/lib/libstagefright_soft_g711dec.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_gsmdec.so:system/lib/libstagefright_soft_gsmdec.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_hevcdec.so:system/lib/libstagefright_soft_hevcdec.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_mp3dec.so:system/lib/libstagefright_soft_mp3dec.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_mpeg2dec.so:system/lib/libstagefright_soft_mpeg2dec.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_mpeg4dec.so:system/lib/libstagefright_soft_mpeg4dec.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_mpeg4enc.so:system/lib/libstagefright_soft_mpeg4enc.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_opusdec.so:system/lib/libstagefright_soft_opusdec.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_rawdec.so:system/lib/libstagefright_soft_rawdec.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_vorbisdec.so:system/lib/libstagefright_soft_vorbisdec.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_vpxdec.so:system/lib/libstagefright_soft_vpxdec.so \
-    vendor/nubia/nx531j/proprietary/lib/libstagefright_soft_vpxenc.so:system/lib/libstagefright_soft_vpxenc.so \
     vendor/nubia/nx531j/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
     vendor/nubia/nx531j/proprietary/lib64/hw/audio.primary.msm8996.so:system/lib64/hw/audio.primary.msm8996.so \
     vendor/nubia/nx531j/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
@@ -187,27 +165,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/nubia/nx531j/proprietary/lib64/libsdmcore.so:system/lib64/libsdmcore.so \
     vendor/nubia/nx531j/proprietary/lib64/libsdmutils.so:system/lib64/libsdmutils.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_aacdec.so:system/lib64/libstagefright_soft_aacdec.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_aacenc.so:system/lib64/libstagefright_soft_aacenc.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_amrdec.so:system/lib64/libstagefright_soft_amrdec.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_amrnbenc.so:system/lib64/libstagefright_soft_amrnbenc.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_amrwbenc.so:system/lib64/libstagefright_soft_amrwbenc.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_avcdec.so:system/lib64/libstagefright_soft_avcdec.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_avcenc.so:system/lib64/libstagefright_soft_avcenc.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_flacenc.so:system/lib64/libstagefright_soft_flacenc.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_g711dec.so:system/lib64/libstagefright_soft_g711dec.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_gsmdec.so:system/lib64/libstagefright_soft_gsmdec.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_hevcdec.so:system/lib64/libstagefright_soft_hevcdec.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_mp3dec.so:system/lib64/libstagefright_soft_mp3dec.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_mpeg2dec.so:system/lib64/libstagefright_soft_mpeg2dec.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_mpeg4dec.so:system/lib64/libstagefright_soft_mpeg4dec.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_mpeg4enc.so:system/lib64/libstagefright_soft_mpeg4enc.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_opusdec.so:system/lib64/libstagefright_soft_opusdec.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_rawdec.so:system/lib64/libstagefright_soft_rawdec.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_vorbisdec.so:system/lib64/libstagefright_soft_vorbisdec.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_vpxdec.so:system/lib64/libstagefright_soft_vpxdec.so \
-    vendor/nubia/nx531j/proprietary/lib64/libstagefright_soft_vpxenc.so:system/lib64/libstagefright_soft_vpxenc.so \
     vendor/nubia/nx531j/proprietary/lib64/libswresample.so:system/lib64/libswresample.so \
     vendor/nubia/nx531j/proprietary/lib64/libswscale.so:system/lib64/libswscale.so \
     vendor/nubia/nx531j/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
