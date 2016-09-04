@@ -136,7 +136,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/lib/libnubia_effect.so:system/lib/libnubia_effect.so \
     vendor/nubia/nx531j/proprietary/lib/libnubiajpeg.so:system/lib/libnubiajpeg.so \
     vendor/nubia/nx531j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/nubia/nx531j/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
     vendor/nubia/nx531j/proprietary/lib64/hw/audio.primary.msm8996.so:system/lib64/hw/audio.primary.msm8996.so \
     vendor/nubia/nx531j/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/nubia/nx531j/proprietary/lib64/hw/sensors.oem.so:system/lib64/hw/sensors.oem.so \
