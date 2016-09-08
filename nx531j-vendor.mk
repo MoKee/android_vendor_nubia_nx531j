@@ -122,7 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/framework/com.quicinc.wbc.jar:system/framework/com.quicinc.wbc.jar \
     vendor/nubia/nx531j/proprietary/framework/com.quicinc.wbcservice.jar:system/framework/com.quicinc.wbcservice.jar \
     vendor/nubia/nx531j/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
-    vendor/nubia/nx531j/proprietary/framework/org.codeaurora.camera.jar:system/framework/org.codeaurora.camera.jar \
     vendor/nubia/nx531j/proprietary/lib/hw/audio.primary.msm8996.so:system/lib/hw/audio.primary.msm8996.so \
     vendor/nubia/nx531j/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/nubia/nx531j/proprietary/lib/libFNVfbEngineHAL.so:system/lib/libFNVfbEngineHAL.so \
