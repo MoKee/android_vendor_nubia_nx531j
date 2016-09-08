@@ -117,7 +117,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/nubia/nx531j/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/nubia/nx531j/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/nubia/nx531j/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/nubia/nx531j/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/nubia/nx531j/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/nubia/nx531j/proprietary/framework/com.quicinc.wbc.jar:system/framework/com.quicinc.wbc.jar \
@@ -619,6 +618,7 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     com.qti.dpmframework \
+    com.qti.location.sdk \
     dpmapi \
     qcnvitems \
     qcrilhook \
