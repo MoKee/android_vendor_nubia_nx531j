@@ -134,6 +134,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/lib/libnubia_effect.so:system/lib/libnubia_effect.so \
     vendor/nubia/nx531j/proprietary/lib/libnubiajpeg.so:system/lib/libnubiajpeg.so \
     vendor/nubia/nx531j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/nubia/nx531j/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/nubia/nx531j/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/nubia/nx531j/proprietary/lib64/hw/audio.primary.msm8996.so:system/lib64/hw/audio.primary.msm8996.so \
     vendor/nubia/nx531j/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/nubia/nx531j/proprietary/lib64/hw/sensors.oem.so:system/lib64/hw/sensors.oem.so \
@@ -156,6 +158,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/lib64/libpanoramahelper.so:system/lib64/libpanoramahelper.so \
     vendor/nubia/nx531j/proprietary/lib64/libproductinfo.so:system/lib64/libproductinfo.so \
     vendor/nubia/nx531j/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
+    vendor/nubia/nx531j/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
+    vendor/nubia/nx531j/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/nubia/nx531j/proprietary/lib64/libswresample.so:system/lib64/libswresample.so \
     vendor/nubia/nx531j/proprietary/lib64/libswscale.so:system/lib64/libswscale.so \
     vendor/nubia/nx531j/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
@@ -441,6 +445,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/nubia/nx531j/proprietary/vendor/lib/libqti-wl.so:system/vendor/lib/libqti-wl.so \
     vendor/nubia/nx531j/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/nubia/nx531j/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/nubia/nx531j/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
+    vendor/nubia/nx531j/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/nubia/nx531j/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/nubia/nx531j/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/nubia/nx531j/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
@@ -603,6 +610,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
+    libril \
     libtime_genoff \
     QtiTelephonyService \
     TimeService \
