@@ -622,7 +622,8 @@ PRODUCT_PACKAGES += \
     dpmapi \
     qcnvitems \
     qcrilhook \
-    tcmclient
+    tcmclient \
+    telephony-static-config
 PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/nubia/nx531j/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
