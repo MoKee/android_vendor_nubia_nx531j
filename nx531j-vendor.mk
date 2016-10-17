@@ -555,8 +555,6 @@ PRODUCT_PACKAGES += \
     QtiTetherService \
     dpmserviceapp \
     qcrilmsgtunnel \
-    ims \
-    imssettings \
     com.qti.dpmframework \
     dpmapi \
     qcnvitems \
@@ -616,6 +614,8 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libthermalclient \
     com.qualcomm.location \
+    ims \
+    imssettings \
     com.qti.location.sdk
 
 $(call inherit-product, vendor/qcom/binaries/msm8996/graphics/graphics-vendor.mk)
