@@ -108,12 +108,10 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/nubia/nx531j/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/nubia/nx531j/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/nubia/nx531j/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/nubia/nx531j/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/nubia/nx531j/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/nubia/nx531j/proprietary/framework/com.quicinc.wbc.jar:system/framework/com.quicinc.wbc.jar \
     vendor/nubia/nx531j/proprietary/framework/com.quicinc.wbcservice.jar:system/framework/com.quicinc.wbcservice.jar \
-    vendor/nubia/nx531j/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/nubia/nx531j/proprietary/lib/hw/audio.primary.msm8996.so:system/lib/hw/audio.primary.msm8996.so \
     vendor/nubia/nx531j/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/nubia/nx531j/proprietary/lib/libFNVfbEngineHAL.so:system/lib/libFNVfbEngineHAL.so \
@@ -546,28 +544,21 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
-    QtiTelephonyService \
     TimeService \
-    datastatusnotification \
-    embms \
-    fastdormancy \
-    shutdownlistener \
     CNEService \
     QtiTetherService \
     dpmserviceapp \
-    qcrilmsgtunnel \
     com.qti.dpmframework \
     dpmapi \
-    qcnvitems \
-    qcrilhook \
-    tcmclient \
-    telephony-static-config
+    tcmclient
 PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/nubia/nx531j/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/nubia/nx531j/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/nubia/nx531j/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/nubia/nx531j/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/nubia/nx531j/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
+    vendor/nubia/nx531j/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/nubia/nx531j/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/nubia/nx531j/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/nubia/nx531j/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
@@ -600,10 +591,17 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libthermalclient \
+    QtiTelephonyService \
+    datastatusnotification \
+    embms \
+    fastdormancy \
+    shutdownlistener \
     com.qualcomm.location \
+    qcrilmsgtunnel \
     ims \
     imssettings \
-    com.qti.location.sdk
+    com.qti.location.sdk \
+    qcrilhook
 PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/bin/iop:system/bin/iop \
     vendor/nubia/nx531j/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
